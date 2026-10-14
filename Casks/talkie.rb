@@ -27,9 +27,7 @@ cask "talkie" do
   ]
 
   caveats <<~EOS
-    Talkie is not yet notarised. If macOS says the app is damaged, install with
-      brew install --cask --no-quarantine ajmccall/tap/talkie
-    or run
+    Talkie is not yet notarised, so macOS will say the app is damaged until you run
       xattr -dr com.apple.quarantine /Applications/Talkie.app
     First launch downloads about 2.6 GB of speech models (Parakeet, Qwen3).
     Speech model caches are left in place on uninstall; see the README.
