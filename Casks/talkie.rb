@@ -1,6 +1,6 @@
 cask "talkie" do
-  version "0.3.0"
-  sha256 "981bbc4015078ea9efa3b02c6424341f585af5b623d017db791c63e6565e4b4d"
+  version "0.3.1"
+  sha256 "fdebb8043c404b628b3dfdfb6853faca51dfbdcf48e06f6854356474efbe8d38"
 
   url "https://github.com/ajmccall/talkie/releases/download/v#{version}/Talkie-#{version}.zip"
   name "Talkie"
